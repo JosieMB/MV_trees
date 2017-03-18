@@ -1,4 +1,5 @@
 
+TODO: Update license info
 
 TODO: Write r script to produce eps elbow graph
 
