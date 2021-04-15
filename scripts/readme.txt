@@ -1,7 +1,9 @@
 Prerequisites:
 
-runs on R version 3.4.2
+Perl (tested on Perl 5.16)
+R (tested on version 3.4.2)
 
+in R:
 install.packages("dbscan")
 install.packages("igraph")
 install.packages("Cairo")
@@ -20,7 +22,7 @@ Usage:
 (1) Work out appropriate eps value by generating knndistplot and determining elbow:
 knndistplot.r sample_data
 
-(2) run pipeline
+(2) Update pipeline.sh with path to scripts directory and run pipeline
 pipeline.sh sample_data eps_val
 
 
