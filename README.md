@@ -2,14 +2,19 @@
 
 
 Perl (tested on Perl 5.16)
+
 R (tested on version 3.4.2)
 
 in R:
+
 install.packages("dbscan")
+
 install.packages("igraph")
+
 install.packages("Cairo")
 
 source("https://bioconductor.org/biocLite.R")
+
 biocLite("nem")
 
 
